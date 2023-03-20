@@ -34,6 +34,7 @@
   padding: 0.2rem;
 }
 .main-nav .right-nav {
+  background-color: #fff;
   border-right: 1px solid #ccc;
   height: 100%;
   flex-basis: 100%;
@@ -116,6 +117,7 @@
     left: 0;
     animation: slideIn 750ms forwards;
     width: 75%;
+    z-index: 2;
   }
   .main-nav.hidden {
     left: -42.5rem;

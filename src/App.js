@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import "./styles/app.css";
+import "./App.css";
 
 import Nav from "./components/Nav";
 import Dashboard from "./components/Dashboard";
@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div className="rf-dashboard">
+      <div className={isOpen && "overlay"}></div>
       <MobileNav isOpen={isOpen} setOpen={setOpen} />
       <Nav isOpen={isOpen} />
       <Dashboard isOpen={isOpen} />
