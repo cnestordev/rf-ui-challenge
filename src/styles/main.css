@@ -16,6 +16,9 @@
   font-size: 2rem;
   font-weight: 600;
 }
+.main-container .step-container {
+  margin-bottom: 2.4rem;
+}
 .main-container .step-container h3 {
   font-size: 1.4rem;
   font-weight: 400;
@@ -30,6 +33,11 @@
   padding: 1.6rem 2.4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}
+.main-container .step-container .no-border {
+  border: none;
+  padding: 0;
 }
 .main-container .step-container .step-card span {
   display: flex;
