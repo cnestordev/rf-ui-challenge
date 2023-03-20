@@ -21,7 +21,9 @@ const Nav = () => {
           <h3>RainFocus Summit</h3>
           <h4>Lehl, UT • December 15th</h4>
           <div className="nav-search">
-            <input type="input" placeholder="Search" />
+            <label>
+              <input type="input" placeholder="Search" />
+            </label>
           </div>
         </div>
         <div className="event-menu">
