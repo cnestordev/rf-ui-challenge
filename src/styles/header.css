@@ -24,7 +24,7 @@
   font-size: 3.2rem;
   font-weight: 600;
   text-align: left;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.6rem;
 }
 .event-heading .event-container .event-details .header-info p {
   font-size: 1.6rem;
@@ -40,6 +40,7 @@
   color: #fff;
   font-family: "Inter";
   font-weight: 700;
+  font-size: 1.4rem;
 }
 .event-heading .event-setup {
   text-align: left;
