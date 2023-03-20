@@ -1,9 +1,12 @@
 import "../styles/dashboard.css"
+import EventHeader from "./EventHeader";
+import Main from "./Main";
 
 const Dashboard = () => {
     return (
         <div className="dashboard">
-            <h2>Dashboard</h2>
+            <EventHeader />
+            <Main />
         </div>
     )
 }

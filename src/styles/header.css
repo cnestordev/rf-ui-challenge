@@ -1,0 +1,55 @@
+.event-heading {
+  font-family: "Inter";
+}
+.event-heading hr {
+  margin-top: 4rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.event-heading .event-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.event-heading .event-container .event-details {
+  display: flex;
+}
+.event-heading .event-container .event-details .event-icon img {
+  border-radius: 0.8rem;
+}
+.event-heading .event-container .event-details .header-info {
+  margin-left: 0.8rem;
+}
+.event-heading .event-container .event-details .header-info h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 0.8rem;
+}
+.event-heading .event-container .event-details .header-info p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0.4rem;
+}
+.event-heading .edit-event-btn {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #5C00DC;
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 700;
+}
+.event-heading .event-setup {
+  text-align: left;
+}
+.event-heading .event-setup h3 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+.event-heading .event-setup p {
+  font-weight: 400;
+  font-size: 1.6rem;
+}/*# sourceMappingURL=header.css.map */
