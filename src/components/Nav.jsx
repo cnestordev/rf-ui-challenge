@@ -4,9 +4,9 @@ import smallLogo from '../assets/media/rf-icon-small.svg'
 import userLogo from '../assets/media/user-icon.svg'
 import rainfocuslogo from '../assets/media/rflogo.svg'
 
-const Nav = () => {
+const Nav = ({isOpen}) => {
   return (
-    <nav className="main-nav">
+    <nav className={isOpen ? 'main-nav' : 'main-nav hidden'}>
       <div className="left-nav">
         <ul className="logos">
           <li><img src={rainfocuslogo} alt="logo" /></li>

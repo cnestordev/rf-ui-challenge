@@ -67,3 +67,15 @@
         }
     }
 }
+
+@media (max-width: $tablet) {
+    .dashboard{
+        margin-left: 0;
+        padding: 1.5rem;
+    }
+    .edit-event-btn {
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+    }
+}

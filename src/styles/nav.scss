@@ -1,6 +1,7 @@
 @import './variables.scss';
 
 .main-nav {
+    background-color: $white;
     font-family: $main_font;
     display: flex;
     position: fixed;
@@ -132,6 +133,41 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .main-nav {
+        left: 0;
+        animation: slideIn 750ms forwards;
+        width: 75%;
+        &.hidden {
+            left: -42.5rem;
+            animation: slideOut 750ms forwards;
+        }
+        .left-nav {
+            .logos {
+                margin-top: 4rem;
+            }
+        }
+    }
+
+    @keyframes slideIn {
+        0% {
+            left: -90rem;
+        }
+        100% {
+            left: 0;
+        }
+    }
+
+    @keyframes slideOut {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: -90rem;
         }
     }
 }

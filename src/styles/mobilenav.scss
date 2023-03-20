@@ -1,0 +1,16 @@
+@import './variables.scss';
+
+@media (max-width: $tablet) {
+    .mobile-nav {
+        display: block;
+        padding: 1rem 1.5rem;
+        position: relative;
+        z-index: 6;
+    }
+}
+
+@media (min-width: $desktop) {
+    .mobile-nav {
+        display: none;
+    }
+}

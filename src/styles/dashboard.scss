@@ -1,4 +1,13 @@
+@import "./variables.scss";
+
 .dashboard {
     margin-left: 28.1rem;
     padding: 4rem 4.8rem;
+}
+
+@media (max-width: $sm) {
+    .dashboard{
+        margin-left: 0;
+        padding: 1.5rem;
+    }
 }

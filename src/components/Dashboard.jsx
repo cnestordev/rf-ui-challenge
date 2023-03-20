@@ -1,4 +1,5 @@
 import "../styles/dashboard.css"
+
 import EventHeader from "./EventHeader";
 import Main from "./Main";
 

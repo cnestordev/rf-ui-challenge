@@ -53,4 +53,16 @@
 .event-heading .event-setup p {
   font-weight: 400;
   font-size: 1.6rem;
+}
+
+@media (max-width: 900px) {
+  .dashboard {
+    margin-left: 0;
+    padding: 1.5rem;
+  }
+  .edit-event-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+  }
 }/*# sourceMappingURL=header.css.map */

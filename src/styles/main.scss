@@ -59,3 +59,23 @@
         }
     }
 }
+
+@media (max-width: $desktop) {
+    .main-container {
+        .step-container {
+            .step-border {
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .main-container {
+        .step-container {
+            .step-border {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}
