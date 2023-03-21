@@ -35,7 +35,7 @@ const Nav = ({ isOpen, isHover }) => {
       <div className="right-nav">
         <div className="event-header">
           <h3>RainFocus Summit</h3>
-          <h4>Lehl, UT • December 15th</h4>
+          <h4>Lehi, UT • December 15th</h4>
           <div className="nav-search">
             <label>
               <input type="input" placeholder="Search" />
