@@ -1,29 +1,32 @@
-import "../styles/nav.css"
+import "../styles/nav.css";
 
-import smallLogo from '../assets/media/rf-icon-small.svg'
-import userLogo from '../assets/media/user-icon.svg'
-import rainfocuslogo from '../assets/media/rflogo.svg'
+import smallLogo from "../assets/media/rf-icon-small.svg";
+import userLogo from "../assets/media/user-icon.svg";
+import rainfocuslogo from "../assets/media/rflogo.svg";
 
-const Nav = ({isOpen, isHover}) => {
-
+const Nav = ({ isOpen, isHover }) => {
   const attendeesList = [
-    'Attendees',
-    'Attendee types',
-    'Packages',
-    'Reg codes',
-    'Discounts'
-  ]
+    "Attendees",
+    "Attendee types",
+    "Packages",
+    "Reg codes",
+    "Discounts",
+  ];
 
   return (
-    <nav className={
-      `main-nav 
-      ${isOpen ? 'active' : 'inactive'} 
-      ${isHover ? '' : 'hidden'}`
-    }>
+    <nav
+      className={`main-nav 
+      ${isOpen ? "active" : "inactive"} 
+      ${isHover ? "" : "hidden"}`}
+    >
       <div className="left-nav">
         <ul className="logos">
-          <li><img src={rainfocuslogo} alt="logo" /></li>
-          <li><img src={smallLogo} alt="logo" /></li>
+          <li>
+            <img src={rainfocuslogo} alt="logo" />
+          </li>
+          <li>
+            <img src={smallLogo} alt="logo" />
+          </li>
         </ul>
         <div className="user-icon">
           <span className="username">FL</span>
@@ -51,7 +54,7 @@ const Nav = ({isOpen, isHover}) => {
               <span className="circle"></span>
               <span className="menu-items">Attendees</span>
             </div>
-            {attendeesList.map(name => (
+            {attendeesList.map((name) => (
               <li>{name}</li>
             ))}
           </ul>
@@ -70,7 +73,7 @@ const Nav = ({isOpen, isHover}) => {
         </div>
       </div>
     </nav>
-  )
+  );
 };
 
 export default Nav;

@@ -1,5 +1,5 @@
 import "../styles/header.css";
-import logo from '../assets/media/rf-icon-large.svg';
+import logo from "../assets/media/rf-icon-large.svg";
 
 const EventHeader = () => {
   return (
