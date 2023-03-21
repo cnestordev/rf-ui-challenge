@@ -1,81 +1,74 @@
 @import './variables.scss';
 
 .main-container {
-    font-family: $main_font;
-    .main-header {
+  font-family: $main_font;
+
+  .main-header {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin: 3rem 0;
+
+    .icon {
+      height: 3.5rem;
+      width: 3.5rem;
+      background: url("../assets/media/person.svg") no-repeat center;
+    }
+
+    h3 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+
+  .step-container {
+    margin-bottom: 2.4rem;
+
+    h3 {
+      font-size: 1.4rem;
+      font-weight: 400;
+      margin-bottom: 0.8rem;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    .step-border {
+      border: 1px solid $light-gray-border;
+      border-radius: 4px;
+      padding: 2.4rem 3.4rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.4rem;
+
+      @media (max-width: $desktop) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media (max-width: $tablet) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .no-border {
+      border: none;
+      padding: 0 0 2.4rem 0;
+    }
+
+    .step-card {
+      span {
         display: flex;
-        align-items: center;
-        gap: 1.6rem;
-        margin: 3rem 0;
+        flex-direction: column;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
 
-        .icon {
-            height: 3.5rem;
-            width: 3.5rem;
-            background: url("../assets/media/person.svg") no-repeat center;
-        }
-
-        h3 {
-            font-size: 2rem;
-            font-weight: 600;
-        }
+      div {
+        font-size: 1.2rem;
+        font-weight: 400;
+      }
     }
-    
-    .step-container {
-        margin-bottom: 2.4rem;
-        h3 {
-            font-size: 1.4rem;
-            font-weight: 400;
-            margin-bottom: 0.8rem;
-            span {
-                font-weight: 700;
-            }
-        }
-        .step-border {
-            border: 1px solid $light-gray-border;
-            border-radius: 4px;
-            padding: 2.4rem 3.4rem;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2.4rem;
-        }
-
-        .no-border {
-            border: none;
-            padding: 0 0 2.4rem 0;
-        }
-
-        .step-card {
-            span {
-                display: flex;
-                flex-direction: column;
-                font-size: 1.3rem;
-                font-weight: 700;
-                margin-bottom: 5px;
-            }
-            div {
-                font-size: 1.2rem;
-                font-weight: 400;
-            }
-        }
-    }
-}
-
-@media (max-width: $desktop) {
-    .main-container {
-        .step-container {
-            .step-border {
-                grid-template-columns: repeat(2,1fr);
-            }
-        }
-    }
-}
-
-@media (max-width: $tablet) {
-    .main-container {
-        .step-container {
-            .step-border {
-                grid-template-columns: repeat(1, 1fr);
-            }
-        }
-    }
+  }
 }

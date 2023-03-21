@@ -1,22 +1,24 @@
 @import './variables.scss';
 
 .card-border {
-    border: 1px solid $light-gray-border;
-    border-radius: 4px;
-    font-size: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    font-family: $main_font;
-    padding: 2.8rem 3.2rem;
+  border: 1px solid $light-gray-border;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-family: $main_font;
+  padding: 2.8rem 3.2rem;
 
-    .card-header {
-        display: flex;
-        align-items: center;
-        font-size: 1.3rem;
-        margin-bottom: 0.8rem;
-        font-weight: 700;
-        img {
-            margin-right: 1.25rem;
-        }
+  display: flex;
+  flex-direction: column;
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    img {
+      margin-right: 1.25rem;
     }
+  }
 }

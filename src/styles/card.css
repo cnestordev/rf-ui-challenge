@@ -2,16 +2,16 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1.2rem;
-  display: flex;
-  flex-direction: column;
   font-family: "Inter";
   padding: 2.8rem 3.2rem;
+  display: flex;
+  flex-direction: column;
 }
 .card-border .card-header {
   display: flex;
   align-items: center;
-  font-size: 1.3rem;
   margin-bottom: 0.8rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 .card-border .card-header img {

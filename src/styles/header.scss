@@ -1,91 +1,91 @@
 @import './variables.scss';
 
 .event-heading {
-    font-family: $main_font;
+  font-family: $main_font;
+}
 
-    hr {
-        margin-top: 4rem;
-        border: none;
-        border-bottom: 1px solid $light-gray-border;
-    }
+.event-heading hr {
+  margin-top: 4rem;
+  border: none;
+  border-bottom: 1px solid $light-gray-border;
+}
 
-    .event-container {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 4rem;
+.event-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
 
-        .event-details {
-            display: flex;
-            .event-icon {
-                img {
-                    border-radius: 0.8rem;
-                }
-            }
-            .header-info {
-                margin-left: 0.8rem;
-                h2 {
-                    font-size: 3.2rem;
-                    font-weight: 600;
-                    text-align: left;
-                    margin-bottom: 1.6rem;
-                }
-            
-                p {
-                    font-size: 1.6rem;
-                    font-weight: 400;
-                    text-align: left;
-                    margin-top: 0.4rem;
-                }
-            }
+.event-icon img {
+  border-radius: 0.8rem;
+}
 
-        }
-    }
+.header-info {
+  margin-left: 0.8rem;
+}
 
-    .edit-event-btn {
-        padding: 0.8rem 1.6rem;
-        border: none;
-        border-radius: 4px;
-        background-color: $dark_purple;
-        color: $white;
-        font-family: $main_font;
-        font-weight: 700;
-        font-size: 1.4rem;
-    }
+.header-info h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 1.6rem;
+}
 
-    .event-setup {
-        text-align: left;
+.header-info p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0.4rem;
+}
 
-        h3 {
-            font-weight: 600;
-            font-size: 2.4rem;
-            margin-bottom: 1.6rem;
-        }
+.edit-event-btn {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 4px;
+  background-color: $dark_purple;
+  color: $white;
+  font-family: $main_font;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
 
-        p {
-            font-weight: 400;
-            font-size: 1.6rem;
-        }
-    }
+.event-details {
+    display: flex;
+    align-items: center;
+}
+
+.event-setup {
+  text-align: left;
+}
+
+.event-setup h3 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.event-setup p {
+  font-weight: 400;
+  font-size: 1.6rem;
 }
 
 @media (max-width: $tablet) {
-    .dashboard{
-        margin-left: 0;
-        padding: 1.5rem;
-    }
-    .edit-event-btn {
-        position: absolute;
-        top: 1rem;
-        right: 1.5rem;
-    }
-    .header-info {
-        h2 {
-            font-size: 1.8rem !important;
-        }
-        .event-time {
-            p {
-                font-size: 1.4rem !important;
-            }
-        }
-    }
+  .dashboard {
+    margin-left: 0;
+    padding: 1.5rem;
+  }
+
+  .edit-event-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+  }
+
+  .header-info h2 {
+    font-size: 1.8rem;
+  }
+
+  .event-time p {
+    font-size: 1.4rem;
+  }
 }

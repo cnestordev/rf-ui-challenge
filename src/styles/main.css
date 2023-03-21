@@ -35,6 +35,16 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2.4rem;
 }
+@media (max-width: 1200px) {
+  .main-container .step-container .step-border {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .main-container .step-container .step-border {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .main-container .step-container .no-border {
   border: none;
   padding: 0 0 2.4rem 0;
@@ -49,15 +59,4 @@
 .main-container .step-container .step-card div {
   font-size: 1.2rem;
   font-weight: 400;
-}
-
-@media (max-width: 1200px) {
-  .main-container .step-container .step-border {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 900px) {
-  .main-container .step-container .step-border {
-    grid-template-columns: repeat(1, 1fr);
-  }
 }/*# sourceMappingURL=main.css.map */

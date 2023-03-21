@@ -1,9 +1,10 @@
 .addbox-border {
+  cursor: pointer;
+  font-family: "Inter";
+  font-size: 1.2rem;
+  padding: 3.6rem 3.4rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 1.2rem;
-  font-family: "Inter";
-  padding: 3.6rem 3.4rem;
 }
 .addbox-border .addbox-header {
   display: flex;
@@ -11,6 +12,6 @@
   margin-bottom: 0.8rem;
 }
 .addbox-border .addbox-body p {
-  text-align: center;
   font-weight: 400;
+  text-align: center;
 }/*# sourceMappingURL=addbox.css.map */

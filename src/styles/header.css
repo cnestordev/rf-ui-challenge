@@ -1,38 +1,42 @@
 .event-heading {
   font-family: "Inter";
 }
+
 .event-heading hr {
   margin-top: 4rem;
   border: none;
   border-bottom: 1px solid #ccc;
 }
-.event-heading .event-container {
+
+.event-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 4rem;
 }
-.event-heading .event-container .event-details {
-  display: flex;
-}
-.event-heading .event-container .event-details .event-icon img {
+
+.event-icon img {
   border-radius: 0.8rem;
 }
-.event-heading .event-container .event-details .header-info {
+
+.header-info {
   margin-left: 0.8rem;
 }
-.event-heading .event-container .event-details .header-info h2 {
+
+.header-info h2 {
   font-size: 3.2rem;
   font-weight: 600;
   text-align: left;
   margin-bottom: 1.6rem;
 }
-.event-heading .event-container .event-details .header-info p {
+
+.header-info p {
   font-size: 1.6rem;
   font-weight: 400;
   text-align: left;
   margin-top: 0.4rem;
 }
-.event-heading .edit-event-btn {
+
+.edit-event-btn {
   padding: 0.8rem 1.6rem;
   border: none;
   border-radius: 4px;
@@ -42,15 +46,23 @@
   font-weight: 700;
   font-size: 1.4rem;
 }
-.event-heading .event-setup {
+
+.event-details {
+  display: flex;
+  align-items: center;
+}
+
+.event-setup {
   text-align: left;
 }
-.event-heading .event-setup h3 {
+
+.event-setup h3 {
   font-weight: 600;
   font-size: 2.4rem;
   margin-bottom: 1.6rem;
 }
-.event-heading .event-setup p {
+
+.event-setup p {
   font-weight: 400;
   font-size: 1.6rem;
 }
@@ -66,9 +78,9 @@
     right: 1.5rem;
   }
   .header-info h2 {
-    font-size: 1.8rem !important;
+    font-size: 1.8rem;
   }
-  .header-info .event-time p {
-    font-size: 1.4rem !important;
+  .event-time p {
+    font-size: 1.4rem;
   }
 }/*# sourceMappingURL=header.css.map */
